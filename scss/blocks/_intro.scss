@@ -1,0 +1,62 @@
+.intro__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2CEDA;
+    width: 1600px;
+}
+.intro__text-box {
+    width: 663px;
+    height: 364px;
+    margin-left: 254px;
+}
+.intro__info-mini{
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 10%;
+color: #0F0101;
+}
+.intro__slogan {
+   font-family: "fredoka";
+font-weight: 400;
+font-size: 57.33px;
+line-height: 121%;
+letter-spacing: 0%;
+}
+.intro__text {
+    font-family: "Hind Madurai";
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0%;
+color: #0F0101;
+margin-top: 35px;
+}
+.intro__link{
+padding: 13px 50px 14px 50px;
+background-color: #D23166;
+color: #FAFAFA;
+border-radius: 5px;
+font-family: "Hind Madurai";
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.intro__button{
+    margin-top: 60px;
+}
+.intro__span{
+    font-family: "fredoka";
+font-weight: 400;
+font-size: 57.33px;
+line-height: 121%;
+letter-spacing: 0%;
+color: #D23166;
+}
+.intro__img{
+    margin-right: 100px;
+}
