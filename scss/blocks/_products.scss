@@ -1,0 +1,57 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.product__slogan{
+    font-family: "Hind Madurai";
+font-weight: 600;
+font-size: 44.2px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #150101;
+margin-left: 690px;
+}
+.product__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    margin-left: 370px;
+}
+.product__item{
+    margin-top: 65px;
+}
+
+.product__item-link {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    position: relative;
+}
+
+.product__item-link::after {
+    position: absolute;
+    width: 23px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: transparent;
+    content: '';
+    bottom: -13px;
+    left: 0;
+
+}
+
+.product__item-link:hover::after {
+    background-color: #D64374;
+    width: 60px;
+}

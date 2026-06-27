@@ -1,53 +1,50 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .sugar__container {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     background-color: #F2CEDA;
-    width: 1125px;
+    max-width: 1600px;
 }
 .sugar__text-box {
     width: 663px;
     height: 364px;
+    margin-left: 254px;
 }
 .sugar__slogan {
-   font-family: "fredoka";
-font-weight: 400;
-font-size: 57.33px;
-line-height: 121%;
+  font-family: "Hind Madurai";
+font-weight: 600;
+font-size: 44.2px;
+line-height: 111.00000000000001%;
 letter-spacing: 0%;
+width: 349px;
 }
 .sugar__text {
-    font-family: "Hind Madurai";
+    font-family: "Roboto";
 font-weight: 400;
-font-size: 18px;
-line-height: 27px;
+font-size: 16px;
+line-height: 24px;
 letter-spacing: 0%;
 color: #0F0101;
 margin-top: 35px;
+margin-bottom: 45px;
 }
 .sugar__link{
 padding: 13px 50px 14px 50px;
 background-color: #D23166;
 color: #FAFAFA;
 border-radius: 5px;
-font-family: "Hind Madurai";
-font-weight: 700;
+font-family: "Roboto";
+font-weight: 500;
 font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
 }
-.sugar__button{
-    margin-top: 60px;
-}
-.sugar__span{
-    font-family: "fredoka";
-font-weight: 400;
-font-size: 57.33px;
-line-height: 121%;
-letter-spacing: 0%;
-color: #D23166;
-}
 .sugar__img{
-    margin-right: 100px;
+    margin-right: 177px;
+    background: url(../img/soya.png) no-repeat  center bottom;
+   
 }

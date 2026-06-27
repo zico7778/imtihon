@@ -1,18 +1,18 @@
 .info__container {
-    width: 1600px;
+    max-width: 1600px;
     margin-left: 670px;
     padding-top: 100px;
     padding-bottom: 100px;
     justify-content: center; 
     gap: 30px;              
-    width: 100%;            
-    max-width: 1600px;      
+    width: 100%;                 
     margin: 50px auto;
     gap: 30px;
 }
 
 .info__list {
     display: flex;
+    margin-left: 200px;
 }
 .info__item {
     width: 250px;

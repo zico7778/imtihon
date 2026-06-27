@@ -1,0 +1,180 @@
+.products__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+}
+.products__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.products__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products__item:nth-child(even){
+    flex-direction: row-reverse;
+}
+.products__item-textbox{
+    flex-direction: column;
+    margin-right: 120px;
+}
+.products__item-textbox--second{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.products__item-img{
+margin-left: 170px;
+}
+.products__item-img--second{
+margin-left: 70px;
+}
+.products__item-name{
+    font-family: "Hind Madurai";
+font-weight: 700;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+margin-bottom: 11px;
+}
+.products__item-name--second{
+ font-family: "Hind Madurai";
+font-weight: 700;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+margin-bottom: 12px;
+}
+.products__item-text{
+    font-family: "Roboto";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #000000;
+width: 444px;
+margin-bottom: 20px;
+}
+.products__item-text--second{
+  font-family: "Roboto";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #000000;
+width: 444px;
+margin-left: 280px;
+margin-bottom: 30px;
+}
+.products__item-prise{
+   font-family: "Hind Madurai";
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: #000000; 
+margin-right: 300px;
+margin-bottom: 28px;
+}
+.products__item-prise--second{
+    font-family: "Hind Madurai";
+font-weight: 500;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: right;
+color: #000000;
+}
+.products__item-link{
+    padding: 13px 50px 14px 50px;
+background-color: #D23166;
+color: #FAFAFA;
+border-radius: 5px;
+font-family: "Roboto";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.products__item-link--second{
+    padding: 13px 50px 14px 50px;
+background-color: #D23166;
+color: #FAFAFA;
+border-radius: 5px;
+font-family: "Roboto";
+font-weight: 500;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 165px;
+margin-left: 570px;
+margin-top: 16px;
+}
+.products__item-essential{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.products__item-imgd{
+    margin-left: 11px;
+    margin-top: 50px;
+}
+.products__item-text{
+    font-family: "Roboto";
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #000000;
+margin-top: 50px;
+}
+.products__item-girl{
+    display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.products__item-names{
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+.products__item-from{
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #000;
+margin-right: 120px;
+margin-top: 5px;
+}
+.products__items-span{
+    width: 10.96817684173584;
+height: 10.000086784362793;
+top: 3757px;
+left: 252px;
+opacity: 1;
+color: #F6762C;
+}
+.products__items-span--second{
+ width: 10.96817684173584;
+height: 10.000086784362793;
+top: 3757px;
+left: 252px;
+opacity: 1;
+color: #F6762C;
+margin-left: 350px
+}
