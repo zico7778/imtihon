@@ -162,19 +162,17 @@ margin-right: 120px;
 margin-top: 5px;
 }
 .products__items-span{
-    width: 10.96817684173584;
-height: 10.000086784362793;
-top: 3757px;
-left: 252px;
-opacity: 1;
-color: #F6762C;
+    display: inline-block;
+    width: 11px;
+    height: 10px;
+    background: url(../img/odin.png) no-repeat;
+    margin-left: -25px;
 }
-.products__items-span--second{
- width: 10.96817684173584;
-height: 10.000086784362793;
-top: 3757px;
-left: 252px;
-opacity: 1;
-color: #F6762C;
-margin-left: 350px
+
+.products__items-span--second {
+    display: inline-block;
+    width: 11px;
+    height: 10px;
+    background: url(../img/dva.png) no-repeat;
+    margin-left: 450px;
 }

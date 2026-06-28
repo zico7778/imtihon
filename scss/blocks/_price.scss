@@ -1,0 +1,68 @@
+.price__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2CEDA;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+.price__text-box {
+    width: 663px;
+    height: 364px;
+    margin-right: 230px;
+}
+.price__slogan {
+    font-family: "Roboto";
+font-weight: 500;
+font-size: 44.2px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000;
+}
+.price__text {
+   font-family: "Roboto";
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 1%;
+color: #0F0101;
+margin-top: 35px;
+}
+.price__img{
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+.price__list{
+    margin-top: 31px;
+}
+.price__item{
+display: flex;
+margin-top: 15px;
+}
+.price__item:first-child{
+    margin-top: 0;
+}
+.price__item-text{
+    font-family: "Roboto";
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+margin-left: 10px;
+}
+.price__item-background{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.price__item-img{
+    margin-top: 7px;
+    margin-left: 6px;
+}
+.price__download-list{
+    display: flex;
+    margin-top: 40px;
+}

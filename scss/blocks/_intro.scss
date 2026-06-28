@@ -6,6 +6,17 @@
     background-color: #F2CEDA;
     max-width: 1600px;
 }
+.intro__img-box {
+  display: inline-block;
+  width: 597px;
+  height: 597px;
+  background-image: url("../img/cream.png"),url("../img/icecream.png"),url("../img/doira.png");
+  background-repeat: no-repeat;
+  background-position: center 130px,center center,center 240px;
+  background-position-y:50px center, center center, center center;
+  background-size: 852px 548px,597px 597px,365px 363px;
+  margin-right: 150px;
+}
 .intro__text-box {
     width: 663px;
     height: 364px;
