@@ -25,7 +25,7 @@
     justify-content: space-between;
     margin-right: 50px;
 }
-.header__item-link:checked {
+.header__item-link{
     margin-right: 40px;
     font-size: 17px;
     line-height: 100%;
@@ -37,8 +37,9 @@ line-height: 100%;
 letter-spacing: 0%;
 color: #150101;
 }
-.header__span:active{
+.header__item-link:hover{
     color: #D23166;
+    transition: color 0.3s ease;
 }
 .header__nav-link{
 margin-left: 40px;
